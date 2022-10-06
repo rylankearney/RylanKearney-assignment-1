@@ -8,10 +8,12 @@ html { box-sizing: border-box;}
 
 html {
     font-size: 125%;
-    background-color: #815600;
 }
 
-
+body {
+    background-color: #815600;
+    color: #ffffff;
+}
 
 .wrapper {
     max-width: 1080px;
@@ -23,7 +25,9 @@ header {
     background-color: #815600;
 }
 
-.about {
+.about, 
+.icons,
+.contact {
     background-color: #500801;
     width: 100%;
 }
