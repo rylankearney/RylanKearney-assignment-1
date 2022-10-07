@@ -214,6 +214,8 @@ li i {
     position: absolute;
     top: 0;
     left: 0;
+    padding: 50px;
+    margin: 10px;
 }
 
 .img-container-1 {
@@ -232,6 +234,7 @@ li i {
     position: absolute;
     bottom: 0;
     right: 0;
+    padding: 50px;
 }
 
 
