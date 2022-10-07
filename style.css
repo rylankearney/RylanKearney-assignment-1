@@ -192,21 +192,22 @@ li i {
 /*Corners Section Styles*/
 
 .four-corners {
-    height: 100vh;
-}
-
-.corner-container {
+    height: 111vh;
     position: relative;
 }
 
+
 .text-container-1,
-.text-container-2 {
+.text-container-2,
+.img-container-1,
+.img-container-2 {
     width: 50%;
+
 }
 
 .img-container-1 img,
 .img-container-2 img {
-    width: 50%;
+    width: 100%;
 }
 
 .text-container-1 {
@@ -237,3 +238,12 @@ li i {
 /*Contact Styles*/
 
 /*Footer Styles*/
+
+footer {
+    background-color: #1D0303;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
