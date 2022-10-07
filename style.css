@@ -25,6 +25,11 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #815600;
 }
@@ -91,8 +96,8 @@ h2 {
 }
 
 .article-image {
-    /*margin: 25px;
-    padding: 25px;*/
+   /* margin-top: 45px;
+    /*padding: 25px;*/
     object-fit: cover;
     width: 230px;
     height: 230px;
