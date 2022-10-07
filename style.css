@@ -177,11 +177,16 @@ button {
     font-family: 'Petit Formal Script', cursive;
     text-align: center;
     font-size: 25px;
+    margin-top: 50px;
 }
 
 .flex-icons {
     display: flex;
     justify-content: space-around;
+}
+
+li i {
+    font-size: 1.8rem;
 }
 
 /*Corners Section Styles*/
