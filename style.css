@@ -191,9 +191,48 @@ li i {
 
 /*Corners Section Styles*/
 
+.four-corners {
+    height: 100vh;
+}
+
 .corner-container {
     position: relative;
 }
+
+.text-container-1,
+.text-container-2 {
+    width: 50%;
+}
+
+.img-container-1 img,
+.img-container-2 img {
+    width: 50%;
+}
+
+.text-container-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-container-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img-container-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text-container-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 
 /*Contact Styles*/
 
