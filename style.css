@@ -52,3 +52,7 @@ a {
 .desktop-nav {
     display: flex;
 }
+
+.desktop-nav li {
+    padding: 0 30px;
+}
