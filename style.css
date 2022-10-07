@@ -49,10 +49,28 @@ a {
     visibility: hidden;
 }
 
-.desktop-nav {
+.desktop-nav,
+.header-flex {
     display: flex;
 }
 
 .desktop-nav li {
     padding: 0 30px;
 }
+
+h1 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 90px;
+    line-height: 94.3px;
+    text-align: right;
+}
+
+span {
+    display: block;
+}
+
+.header-flex img {
+    height: 450px;
+    margin-bottom: 50px;
+}
+
