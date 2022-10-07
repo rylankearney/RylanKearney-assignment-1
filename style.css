@@ -65,6 +65,7 @@ a {
 
 .desktop-nav li {
     padding: 0 30px;
+    margin: 20px 0;
 }
 
 h1 {
@@ -240,20 +241,15 @@ li i {
 
 /*Contact Styles*/
 
-.contact {
-    height: 40vh;
-}
+
 
 .contact-flex {
+    height: 40vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.contact-nav {
-    margin-top: 80px;
-    align-items: center;
-}
 
 .contact-nav ul li {
     text-transform: lowercase;
@@ -269,8 +265,16 @@ h3 {
     text-align: right;
 }
 
-fieldset {
+form {
     border: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+legend {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 54px;
 }
 
 .form-flex {
