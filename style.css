@@ -169,6 +169,21 @@ button {
 
 /*Icons Section Styles*/
 
+.icons {
+    height: 25vh;
+}
+
+.flex-icons li {
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.flex-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
 /*Corners Section Styles*/
 
 /*Contact Styles*/
