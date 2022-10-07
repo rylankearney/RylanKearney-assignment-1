@@ -99,18 +99,33 @@ h2 {
    /* margin-top: 45px;
     /*padding: 25px;*/
     object-fit: cover;
-    width: 230px;
-    height: 230px;
+    width: 350px;
+    height: 350px;
 }
 
+.img-container,
 article {
-    /*padding: 25px;
-    margin: 25px;*/
+    padding: 25px;
+    margin: 25px;
 }
 
+article p {
+    margin: 10px 0;
+}
 
 .about-flex {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+button {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 29px;
+    background-color: #000000;
+    padding: 10px 40px;
+    border: none;
 }
