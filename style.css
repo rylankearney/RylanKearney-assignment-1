@@ -6,6 +6,8 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/*Base Styles*/
+
 html {
     font-size: 125%;
 }
@@ -29,6 +31,8 @@ h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
+
+/*Header Styles*/
 
 header {
     background-color: #815600;
@@ -90,6 +94,8 @@ span {
     padding: 10px;
 }
 
+/*About Section Styles*/
+
 h2 {
     font-family: 'Petit Formal Script', cursive;
     font-size: 54px;
@@ -133,3 +139,31 @@ button {
     padding: 10px 40px;
     border: none;
 }
+
+/*Gallery Styles*/
+
+.gallery h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 75px 0;
+}
+
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-gallery li {
+    width: calc((100% / 3) - 20px);
+    margin: 30px 10px;
+}
+
+
+/*Icons Section Styles*/
+
+/*Corners Section Styles*/
+
+/*Contact Styles*/
+
+/*Footer Styles*/
