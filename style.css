@@ -240,6 +240,50 @@ li i {
 
 /*Contact Styles*/
 
+.contact {
+    height: 40vh;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-nav {
+    margin-top: 80px;
+    align-items: center;
+}
+
+.contact-nav ul li {
+    text-transform: lowercase;
+    padding: 3px;
+}
+
+h3 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 45px;
+}
+
+.contact-container {
+    text-align: right;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-flex {
+    text-align: center;
+}
+
+label,
+.contact-container p,
+.contact-nav ul li {
+    font-size: 14px;
+}
+
+
 /*Footer Styles*/
 
 footer {
