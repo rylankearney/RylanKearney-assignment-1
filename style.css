@@ -89,3 +89,9 @@ h2 {
     font-family: 'Petit Formal Script', cursive;
     font-size: 54px;
 }
+
+.article-image {
+    margin: 25px;
+    padding: 25px;
+    height: 40vh;
+}
