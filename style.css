@@ -74,3 +74,13 @@ span {
     margin-bottom: 50px;
 }
 
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0 0 40px 30px;
+}
+
+.socials li {
+    padding: 10px;
+}
