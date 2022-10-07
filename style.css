@@ -191,6 +191,10 @@ li i {
 
 /*Corners Section Styles*/
 
+.corner-container {
+    position: relative;
+}
+
 /*Contact Styles*/
 
 /*Footer Styles*/
