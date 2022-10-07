@@ -263,6 +263,7 @@ h3 {
 
 .contact-container {
     text-align: right;
+    margin-top: 75px;
 }
 
 form {
@@ -279,6 +280,14 @@ legend {
 
 .form-flex {
     text-align: center;
+}
+
+input[type=email] {
+    width:calc(100% - 100px);
+}
+
+.subscribe {
+    width: 100px;
 }
 
 label,
