@@ -44,3 +44,7 @@ a {
 .mobile-nav {
     visibility: hidden;
 }
+
+.desktop-nav {
+    display: flex;
+}
