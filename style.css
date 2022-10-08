@@ -198,7 +198,7 @@ button {
     justify-content: space-around;
 }
 
-li i {
+.flex-icons li i {
     font-size: 1.8rem;
 }
 
@@ -303,25 +303,25 @@ form {
 legend {
     font-family: 'Petit Formal Script', cursive;
     font-size: 54px;
-    margin: auto;
+    margin: 10px 0;
     padding: 10px;
 }
 
-label {
+form p {
     padding: 10px;
    
 }
 
 input[type=email] {
-    width:calc(85% - 170px);
+    width:calc(95% - 170px);
     height: 35px;
-    border: none;
+    border: 1px solid #1D0303;
 }
 
 .subscribe {
     width: 170px;
-    padding: 5px 0;
-
+    padding: 0 0 8px 0;
+    height: 39px;
 }
 
 form p,
@@ -341,3 +341,11 @@ footer p {
     text-align: center;
     padding: 20px;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 940px) {
+    body {
+      background:red;
+    }
+  }
