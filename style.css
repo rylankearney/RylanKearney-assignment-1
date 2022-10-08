@@ -376,3 +376,18 @@ footer p {
           display: none;
       }
   }
+
+  @media screen and (max-width: 1025px) {
+      .flex-gallery li:nth-child(2) {
+          display: none;
+      }
+
+      .flex-gallery li {
+          width: auto;
+          margin: 30px 15px;
+      }
+
+      .img-container-1 img,
+      .img-container-2 img {
+          height: 500px;
+  }
