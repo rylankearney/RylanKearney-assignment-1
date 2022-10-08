@@ -211,7 +211,7 @@ li i {
 }
 
 .four-corners {
-    height: 133.5vh;
+    height: 132.8vh;
     position: relative;
 }
 
@@ -227,6 +227,7 @@ li i {
 .img-container-1 img,
 .img-container-2 img {
     width: 100%;
+    display: block;
 }
 
 .text-container-1 {
