@@ -32,6 +32,17 @@ h1, h2, h3, p, ul {
     padding: 0;
 }
 
+button {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 29px;
+    background-color: #1D0303;
+    padding: 10px 40px;
+    border: none;
+}
+
 /*Header Styles*/
 
 header {
@@ -121,7 +132,8 @@ article {
 }
 
 article p {
-    margin: 10px 0;
+    margin: 30px 0;
+    width: 90%;
 }
 
 .about-flex {
@@ -192,8 +204,14 @@ li i {
 
 /*Corners Section Styles*/
 
+.wrapper-2 {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .four-corners {
-    height: 111vh;
+    height: 133.5vh;
     position: relative;
 }
 
@@ -242,7 +260,6 @@ li i {
 /*Contact Styles*/
 
 
-
 .contact-flex {
     height: 40vh;
     display: flex;
@@ -268,29 +285,34 @@ h3 {
 
 form {
     border: none;
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 
 legend {
     font-family: 'Petit Formal Script', cursive;
     font-size: 54px;
+    margin: auto;
+    padding: 10px;
 }
 
-.form-flex {
-    text-align: center;
+label {
+    padding: 10px;
+   
 }
 
 input[type=email] {
-    width:calc(100% - 100px);
+    width:calc(85% - 170px);
+    height: 35px;
+    border: none;
 }
 
 .subscribe {
-    width: 100px;
+    width: 170px;
+    padding: 5px 0;
+
 }
 
-label,
+form p,
 .contact-container p,
 .contact-nav ul li {
     font-size: 14px;
