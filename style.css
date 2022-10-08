@@ -234,7 +234,7 @@ li i {
     top: 0;
     left: 0;
     padding: 50px;
-    margin: 10px;
+    margin: 50px;
 }
 
 .img-container-1 {
@@ -254,6 +254,17 @@ li i {
     bottom: 0;
     right: 0;
     padding: 50px;
+    margin-bottom: 50px;
+}
+
+.text-container-1 h2,
+.text-container-2 h2 {
+    padding: 20px 0;
+}
+
+.text-container-1 button,
+.text-container-2 button {
+    margin: 20px 0;
 }
 
 
