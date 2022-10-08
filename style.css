@@ -370,3 +370,9 @@ footer p {
 
 
   }
+
+  @media screen and (max-width: 1060px) {
+      .socials {
+          display: none;
+      }
+  }
