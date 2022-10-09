@@ -310,6 +310,7 @@ form p {
 input[type=email] {
     width:calc(95% - 170px);
     height: 35px;
+    color: #ffffff;
     border: 1px solid #1D0303;
 }
 
@@ -427,6 +428,53 @@ footer p {
           width: 70%;
           height: auto;
       }
+    }
+
+    @media screen and (max-width: 920px) {
+        .contact-flex {
+            flex-direction: column;
+            height: auto;
+        }
+        
+        .contact-nav ul {
+            display: flex;
+        }
+
+        .contact-nav ul li {
+            text-transform: capitalize;
+            margin: 15px;
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        .contact-container {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        input[type="email"] {
+            width: 90%;
+            color:#1D0303;
+            font-size: 14px;
+            text-align: center;
+            height: 40px;
+        }
+
+        .subscribe {
+            margin: 10px;
+        }
+
+        .contact-container p {
+            letter-spacing: 2px;
+        }
+
+        h3 {
+            margin: 10px;
+        }
+
+        legend {
+            margin: 0;
+        }
 
 
     }
