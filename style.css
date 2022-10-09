@@ -500,3 +500,22 @@ footer p {
             height: 400px;
         }
     }
+
+    @media screen and (max-width: 710px) {
+        
+    }
+
+    @media screen and (max-width: 550px) {
+        .icons {
+            height: auto;
+        }
+
+        .flex-icons {
+            flex-direction: column;
+        }
+
+        .flex-icons li {
+            margin: 50px;
+        }
+
+    }
