@@ -174,7 +174,7 @@ button {
 
 .flex-gallery {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: center;
     margin-bottom: 75px;
 }
@@ -502,8 +502,11 @@ footer p {
     }
 
     @media screen and (max-width: 710px) {
-        
+        .flex-gallery li img {
+            height: 250px;
+        }
     }
+
 
     @media screen and (max-width: 550px) {
         .icons {
@@ -518,4 +521,12 @@ footer p {
             margin: 50px;
         }
 
+        .flex-gallery li img {
+            height: 175px;
+        }
+
+        .gallery h2 {
+            font-size: 35px;
+        }
     }
+
