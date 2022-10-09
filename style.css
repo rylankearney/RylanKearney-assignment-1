@@ -65,6 +65,11 @@ a {
     color: white;
 }
 
+.fa-bars {
+    color: #ffffff;
+    visibility: hidden;
+}
+
 .mobile-nav {
     visibility: hidden;
 }
@@ -390,4 +395,38 @@ footer p {
       .img-container-1 img,
       .img-container-2 img {
           height: 500px;
+      }
   }
+
+  @media screen and (max-width: 990px) {
+      .desktop-nav {
+          display:none;
+      }
+
+      .fa-bars {
+          visibility: visible;
+          font-size: 40px;
+          padding: 10px;
+          margin: 10px;
+      }
+
+      .burger-menu {
+          text-align: right;
+      }
+
+      h1 {
+          font-size: 70px;
+          margin: 0 10px;
+      }
+
+      .header-flex {
+          flex-direction: column;
+      }
+
+      .header-flex img {
+          width: 70%;
+          height: auto;
+      }
+
+
+    }
