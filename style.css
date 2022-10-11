@@ -64,8 +64,11 @@ a {
 
 /*Header Styles*/
 
-.burger-menu,
-.fa-bars {
+header {
+    height: 90vh;
+}
+
+.burger-menu {
     color: #ffffff;
     visibility: hidden;
 }
@@ -89,6 +92,7 @@ h1 {
     font-size: 90px;
     line-height: 94.3px;
     text-align: right;
+    margin-top: 120px;
 }
 
 span {
@@ -97,7 +101,7 @@ span {
 
 .header-flex img {
     height: 450px;
-    margin-bottom: 50px;
+    margin: 100px 0 50px;
 }
 
 .socials {
@@ -339,6 +343,17 @@ footer p {
 
 /*Media Queries*/
 
+@media screen and (max-width: 1180px) {
+    .socials {
+        display: none;
+    }
+
+    .header-flex img {
+        height: 390px;
+    }
+
+}
+
 @media screen and (max-width: 1080px) {
 
     .four-corners {
@@ -373,14 +388,13 @@ footer p {
         height: 600px;  
     }
 
+    .img-container-2 img {
+        object-position: 50% 75%;
+    }
+
 
   }
 
-  @media screen and (max-width: 1060px) {
-      .socials {
-          display: none;
-      }
-  }
 
   @media screen and (max-width: 1025px) {
       .flex-gallery li:nth-child(2) {
@@ -416,6 +430,10 @@ footer p {
           text-align: right;
       }
 
+      header {
+          height: auto;
+      }
+
       h1 {
           font-size: 70px;
           margin: 0 10px;
@@ -426,7 +444,7 @@ footer p {
       }
 
       .header-flex img {
-          width: 70%;
+          width: 60%;
           height: auto;
       }
     }
