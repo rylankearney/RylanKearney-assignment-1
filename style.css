@@ -6,6 +6,12 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+/*colours
+text (white): #ffffff;
+main background (mustard): #815600;
+about/icon/contact section backround (burgundy): #500801
+button & footer background (brown): #1D0303 */
+
 /*Base Styles*/
 
 html {
