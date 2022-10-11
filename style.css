@@ -32,6 +32,10 @@ h1, h2, h3, p, ul {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 button {
     font-family: 'Petit Formal Script', cursive;
     font-size: 25px;
@@ -43,11 +47,6 @@ button {
     border: none;
 }
 
-/*Header Styles*/
-
-header {
-    background-color: #815600;
-}
 
 .about, 
 .icons,
@@ -56,15 +55,16 @@ header {
     width: 100%;
 }
 
-ul {
-    list-style: none;
-}
 
 a {
     text-decoration: none;
     color: white;
 }
 
+
+/*Header Styles*/
+
+.burger-menu,
 .fa-bars {
     color: #ffffff;
     visibility: hidden;
@@ -121,6 +121,7 @@ h2 {
 .about {
     height: 60vh;
 }
+
 .article-image {
     margin: 35px 0;
     padding: 25px;
@@ -129,7 +130,6 @@ h2 {
     width: 325px;
     height: 325px;
 }
-
 
 article {
     padding: 25px;
@@ -143,7 +143,7 @@ article p {
 
 .about-flex {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     justify-content: center;
 }
 
@@ -174,7 +174,6 @@ button {
 
 .flex-gallery {
     display: flex;
-    /*flex-wrap: wrap;*/
     justify-content: center;
     margin-bottom: 75px;
 }
@@ -400,6 +399,7 @@ footer p {
   }
 
   @media screen and (max-width: 990px) {
+
       .desktop-nav {
           display:none;
       }
@@ -410,6 +410,7 @@ footer p {
           padding: 10px;
           margin: 10px;
       }
+
 
       .burger-menu {
           text-align: right;
@@ -527,6 +528,12 @@ footer p {
 
         .gallery h2 {
             font-size: 35px;
+        }
+
+        article p,
+        .text-container-1 p,
+        .text-container-2 p {
+            text-align: left;
         }
     }
 
